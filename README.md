@@ -9,6 +9,17 @@
 
 **一个基于 LangGraph 的智能 ComfyUI 工作流助手**
 
+
+<div align="center">
+
+| 主界面 | 工作流分析 | API配置 |
+|--------|----------|------------|
+| ![主界面](https://github.com/sgner/images/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-02-06%20161412.png) | ![工作流分析](https://github.com/sgner/images/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-02-06%20161434.png) | ![API配置](https://github.com/sgner/images/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-02-06%20161533.png) |
+
+
+
+</div>
+
 </div>
 
 ---
