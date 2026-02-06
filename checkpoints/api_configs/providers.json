@@ -1,0 +1,46 @@
+[
+  {
+    "id": "869d2528-bba6-4b24-9736-2249929ebf8a",
+    "provider": "custom",
+    "name": "zz",
+    "api_key": "sk-FAhvyEZAb7FxOaN5ePRGpBc3B8fGmAMsnpgBzR7OOLcBk1hm",
+    "model_name": "gemini-3-pro-preview",
+    "base_url": "https://ai.t8star.cn",
+    "is_default": true,
+    "custom_config": {
+      "endpoint": "/v1/chat/completions",
+      "headers": "{\n  \"Accept\": \"application/json\",\n  \"Content-Type\": \"application/json\",\n  \"Authorization\": \"Bearer $apiKey\"\n}",
+      "body": "{\n  \"model\": \"$model\",\n  \"stream\": true,\n  \"messages\": \"$messages\",\n  \"temperature\": 0.5\n}"
+    },
+    "created_at": 1769963436.225139,
+    "updated_at": 1770130032.22142
+  },
+  {
+    "id": "ac5ee1b2-1a0d-4739-9a5c-777b395aa98b",
+    "provider": "google",
+    "name": "kkhk",
+    "api_key": "sdafasd",
+    "model_name": "asdfasdf",
+    "base_url": "",
+    "is_default": false,
+    "custom_config": null,
+    "created_at": 1770036105.073201,
+    "updated_at": 1770048987.400277
+  },
+  {
+    "id": "c4a0c726-7ea9-4644-a6fc-b1e1acd663e0",
+    "provider": "custom",
+    "name": "asdfasd",
+    "api_key": "asdfasd",
+    "model_name": "asdfasdf",
+    "base_url": "asdfasdfasd",
+    "is_default": false,
+    "custom_config": {
+      "endpoint": "/chat/completions",
+      "headers": "{\n  \"Content-Type\": \"application/json\",\n  \"Authorization\": \"Bearer $apiKey\"\n}",
+      "body": "{\n  \"model\": \"$model\",\n  \"messages\": \"$messages\",\n  \"temperature\": 0.5\n}"
+    },
+    "created_at": 1770051498.592175,
+    "updated_at": 1770051498.592175
+  }
+]
